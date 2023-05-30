@@ -224,31 +224,31 @@ import {
   ];
   
   const projects = [
-    {
-      name: "Univ Ini",
-      description:
-        "This is a web-based student management system project, which has a system like facebook, I develop with html css js and php (native).",
-      tags: [
-        {
-          name: "HTML",
-          color: "red-text-gradient",
-        },
-        {
-          name: "CSS",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "JavaScript",
-          color: "yellow-text-gradient",
-        },
-        {
-          name: "PHP",
-          color: "indigo-text-gradient",
-        },
-      ],
-      image: univini,
-      source_code_link: "https://github.com/",
-    },
+    // {
+    //   name: "Univ Ini",
+    //   description:
+    //     "This is a web-based student management system project, which has a system like facebook, I develop with html css js and php (native).",
+    //   tags: [
+    //     {
+    //       name: "HTML",
+    //       color: "red-text-gradient",
+    //     },
+    //     {
+    //       name: "CSS",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "JavaScript",
+    //       color: "yellow-text-gradient",
+    //     },
+    //     {
+    //       name: "PHP",
+    //       color: "indigo-text-gradient",
+    //     },
+    //   ],
+    //   image: univini,
+    //   source_code_link: "https://github.com/",
+    // },
     // {
     //   name: "First Web Portfolio",
     //   description:
@@ -291,52 +291,52 @@ import {
     //   image: facemask,
     //   source_code_link: "https://github.com/",
     // },
-    {
-      name: "Auto Tag Image",
-      description:
-        "Project to help auto tag news in the form of images/videos that have been made with machine learning.",
-      tags: [
-        {
-          name: "Python",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "TensorFlow",
-          color: "orange-text-gradient",
-        },
-        {
-          name: "FastAPI",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Postgres",
-          color: "indigo-text-gradient",
-        },
-      ],
-      image: autotag,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Freshcam",
-      description:
-        "The final project of learning Bangkit Academy led by Google, Tokopedia, Gojek, & Traveloka, an application to detect whether the scanned fruit is fresh or rotten, and I as a machine learning engineer create machine learning models with accuracy 94%.",
-      tags: [
-        {
-          name: "Python",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "TensorFlow",
-          color: "orange-text-gradient",
-        },
-        {
-          name: "Keras",
-          color: "red-text-gradient",
-        },
-      ],
-      image: freshcam,
-      source_code_link: "https://github.com/",
-    },
+    // {
+    //   name: "Auto Tag Image",
+    //   description:
+    //     "Project to help auto tag news in the form of images/videos that have been made with machine learning.",
+    //   tags: [
+    //     {
+    //       name: "Python",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "TensorFlow",
+    //       color: "orange-text-gradient",
+    //     },
+    //     {
+    //       name: "FastAPI",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "Postgres",
+    //       color: "indigo-text-gradient",
+    //     },
+    //   ],
+    //   image: autotag,
+    //   source_code_link: "https://github.com/",
+    // },
+    // {
+    //   name: "Freshcam",
+    //   description:
+    //     "The final project of learning Bangkit Academy led by Google, Tokopedia, Gojek, & Traveloka, an application to detect whether the scanned fruit is fresh or rotten, and I as a machine learning engineer create machine learning models with accuracy 94%.",
+    //   tags: [
+    //     {
+    //       name: "Python",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "TensorFlow",
+    //       color: "orange-text-gradient",
+    //     },
+    //     {
+    //       name: "Keras",
+    //       color: "red-text-gradient",
+    //     },
+    //   ],
+    //   image: freshcam,
+    //   source_code_link: "https://github.com/",
+    // },
     // {
     //   name: "First Apps",
     //   description:
