@@ -270,27 +270,27 @@ import {
     //   image: firstporto,
     //   source_code_link: "https://teddyfirman404.pythonanywhere.com/",
     // },
-    {
-      name: "Face Mask Detection",
-      description:
-        "Project during of COVID-19 to maintaining social distancing. With Deep Learning, Developed with OpenCV using CNN to train data.",
-      tags: [
-        {
-          name: "Python",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "TensorFlow",
-          color: "orange-text-gradient",
-        },
-        {
-          name: "OpenCV",
-          color: "green-text-gradient",
-        },
-      ],
-      image: facemask,
-      source_code_link: "https://github.com/",
-    },
+    // {
+    //   name: "Face Mask Detection",
+    //   description:
+    //     "Project during of COVID-19 to maintaining social distancing. With Deep Learning, Developed with OpenCV using CNN to train data.",
+    //   tags: [
+    //     {
+    //       name: "Python",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "TensorFlow",
+    //       color: "orange-text-gradient",
+    //     },
+    //     {
+    //       name: "OpenCV",
+    //       color: "green-text-gradient",
+    //     },
+    //   ],
+    //   image: facemask,
+    //   source_code_link: "https://github.com/",
+    // },
     {
       name: "Auto Tag Image",
       description:
