@@ -249,27 +249,27 @@ import {
       image: univini,
       source_code_link: "https://github.com/",
     },
-    {
-      name: "First Web Portfolio",
-      description:
-        "My first web portfolio that I developed using the framework python flask, bootstrap and jquery.",
-      tags: [
-        {
-          name: "Flask",
-          color: "gray-text-gradient",
-        },
-        {
-          name: "Bootstrap",
-          color: "purple-text-gradient",
-        },
-        {
-          name: "JQuery",
-          color: "indigo-text-gradient",
-        },
-      ],
-      image: firstporto,
-      source_code_link: "https://teddyfirman404.pythonanywhere.com/",
-    },
+    // {
+    //   name: "First Web Portfolio",
+    //   description:
+    //     "My first web portfolio that I developed using the framework python flask, bootstrap and jquery.",
+    //   tags: [
+    //     {
+    //       name: "Flask",
+    //       color: "gray-text-gradient",
+    //     },
+    //     {
+    //       name: "Bootstrap",
+    //       color: "purple-text-gradient",
+    //     },
+    //     {
+    //       name: "JQuery",
+    //       color: "indigo-text-gradient",
+    //     },
+    //   ],
+    //   image: firstporto,
+    //   source_code_link: "https://teddyfirman404.pythonanywhere.com/",
+    // },
     {
       name: "Face Mask Detection",
       description:
@@ -337,27 +337,27 @@ import {
       image: freshcam,
       source_code_link: "https://github.com/",
     },
-    {
-      name: "First Apps",
-      description:
-        "The first application that I developed using Android Studio with the Java, which focuses on increasing knowledge about Entity Relationship Diagram.",
-      tags: [
-        {
-          name: "Java",
-          color: "orange-text-gradient",
-        },
-        {
-          name: "XML",
-          color: "gray-text-gradient",
-        },
-        {
-          name: "AndroidStudio",
-          color: "green-text-gradient",
-        },
-      ],
-      image: apps,
-      source_code_link: "https://github.com/",
-    },
+    // {
+    //   name: "First Apps",
+    //   description:
+    //     "The first application that I developed using Android Studio with the Java, which focuses on increasing knowledge about Entity Relationship Diagram.",
+    //   tags: [
+    //     {
+    //       name: "Java",
+    //       color: "orange-text-gradient",
+    //     },
+    //     {
+    //       name: "XML",
+    //       color: "gray-text-gradient",
+    //     },
+    //     {
+    //       name: "AndroidStudio",
+    //       color: "green-text-gradient",
+    //     },
+    //   ],
+    //   image: apps,
+    //   source_code_link: "https://github.com/",
+    // },
     {
       name: "Web Perpustakaan",
       description:
