@@ -18,7 +18,7 @@ const Computers = ({ isMobile }) => {
         // castShadow
         // shadow-mapSize={1024}
       /> */}
-      <pointLight intensity={1} />
+      {/* <pointLight intensity={1} /> */}
       <primitive
         object={computer.scene}
         scale={isMobile ? 0.7 : 0.68}
@@ -61,7 +61,7 @@ const ComputersCanvas = () => {
       camera={{ position: [20, 3, 5], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}
     >
-      <Suspense fallback={<CanvasLoader />}>
+      <Suspense fallback={null}>
         <OrbitControls
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
