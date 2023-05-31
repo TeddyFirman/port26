@@ -78,10 +78,10 @@ import {
   ];
   
   const technologies = [
-    {
-      name: "PHP",
-      icon: php,
-    },
+    // {
+    //   name: "PHP",
+    //   icon: php,
+    // },
     {
       name: "Laravel",
       icon: laravel,
@@ -106,14 +106,14 @@ import {
       name: "git",
       icon: git,
     },
-    {
-      name: "Python",
-      icon: python
-    },
-    {
-      name: "Tensorflow",
-      icon: tensorflow
-    },
+    // {
+    //   name: "Python",
+    //   icon: python
+    // },
+    // {
+    //   name: "Tensorflow",
+    //   icon: tensorflow
+    // },
   ];
   
   const experiences = [
