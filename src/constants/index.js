@@ -99,14 +99,6 @@ import {
       icon: go
     },
     {
-      name: "Bootstrap",
-      icon: bootstrap
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
       name: "Rest-API",
       icon: rest,
     },
