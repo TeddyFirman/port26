@@ -26,8 +26,8 @@ const Computers = ({ isMobile }) => {
       rotation={[-0.01, 0.37, -0.1]}
     />
     // </mesh>
-  );
-};
+  )
+}
 
 const ComputersCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
