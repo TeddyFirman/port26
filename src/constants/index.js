@@ -103,16 +103,16 @@ import {
       icon: nodejs,
     },
     {
+      name: "git",
+      icon: git,
+    },
+    {
       name: "Python",
       icon: python
     },
     {
       name: "Tensorflow",
       icon: tensorflow
-    },
-    {
-      name: "git",
-      icon: git,
     },
   ];
   
