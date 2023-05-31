@@ -91,10 +91,6 @@ import {
       icon: mysql
     },
     {
-      name: "Postgres",
-      icon: postgres
-    },
-    {
       name: "Go",
       icon: go
     },
