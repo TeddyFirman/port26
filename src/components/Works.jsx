@@ -69,7 +69,7 @@ const ProjectCard = React.memo(({ index, name, description, tags, image, source_
         className="bg-tertiary p-5 rounded-2xl w-full sm:max-w-[359px] mx-auto"
       >
         <div className="relative w-full h-1/3 sm:h-[230px]">
-          <img 
+          <img
             src={image}
             alt={name}
             className="w-full h-full object-cover rounded-2xl"
@@ -80,7 +80,7 @@ const ProjectCard = React.memo(({ index, name, description, tags, image, source_
               onClick={() => window.open(source_code_link, "_blank")}
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
-              <img 
+              <img
                 src={github}
                 alt="github"
                 className="w-1/2 h-1/2 object-contain"
@@ -108,6 +108,29 @@ const ProjectCard = React.memo(({ index, name, description, tags, image, source_
 
 
 const Works = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    // Add a listener for changes to the screen size
+    const mediaQuery = window.matchMedia("(max-width: 1200px)");
+
+    // Set the initial value of the `isMobile` state variable
+    setIsMobile(mediaQuery.matches);
+
+    // Define a callback function to handle changes to the media query
+    const handleMediaQueryChange = (event) => {
+      setIsMobile(event.matches);
+    };
+
+    // Add the callback function as a listener for changes to the media query
+    mediaQuery.addEventListener("change", handleMediaQueryChange);
+
+    // Remove the listener when the component is unmounted
+    return () => {
+      mediaQuery.removeEventListener("change", handleMediaQueryChange);
+    };
+  }, []);
+
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -130,7 +153,7 @@ const Works = () => {
             key={`project-${index}`}
             index={index}
             {...project}
-            // className="mb-7"
+            className={isMobile ? "mb-7" : ""}
           />
         ))}
       </div>
