@@ -20,13 +20,15 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      
-      
 
-      <ComputersCanvas />
+
+      <motion.div>
+
+        <ComputersCanvas />
+      </motion.div>
       {/* <EarthCanvas /> */}
 
-    
+
       <div className="absolute xs:bottom-1 bottom-32 w-full flex justify-center items-center xs:top-200">
         <a href="#about">
           <div className="w-[33px] h-[51px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2 mt-4">
@@ -38,7 +40,7 @@ const Hero = () => {
                 duration: 1.5,
                 repeat: Infinity,
                 repeatType: 'loop'
-              }}  
+              }}
               className="w-3 h-3 rounded-full bg-secondary mb-1"
             />
           </div>
