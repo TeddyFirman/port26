@@ -467,27 +467,27 @@ import {
       image: rental,
       source_code_link: "https://github.com/",
     },
-    // {
-    //   name: "Simple E-Commerce",
-    //   description:
-    //     "Simple e-commerce website that allows users to search, order, and buy products from various categories provided by admin.",
-    //   tags: [
-    //     {
-    //       name: "Laravel",
-    //       color: "pink-text-gradient",
-    //     },
-    //     {
-    //       name: "Tailwind",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "MySQL",
-    //       color: "orange-text",
-    //     },
-    //   ],
-    //   image: simpleEcom,
-    //   source_code_link: "https://github.com/",
-    // },
+    {
+      name: "Simple E-Commerce",
+      description:
+        "Simple e-commerce website that allows users to search, order, and buy products from various categories provided by admin.",
+      tags: [
+        {
+          name: "Laravel",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Tailwind",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "MySQL",
+          color: "orange-text",
+        },
+      ],
+      image: simpleEcom,
+      source_code_link: "https://github.com/",
+    },
   ];
   
   export { services, technologies, experiences, testimonials, projects };
