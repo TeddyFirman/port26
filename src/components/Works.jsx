@@ -104,7 +104,7 @@ const ProjectCard = React.memo(({ index, name, description, tags, image, source_
   const [imageUrl, setImageUrl] = useState('');
 
   useEffect(() => {
-    import(`../assets/${image}`)
+    import(`../../assets/${image}`)
       .then((imageModule) => {
         setImageUrl(imageModule.default);
       })
