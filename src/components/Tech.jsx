@@ -6,6 +6,7 @@ import { styles } from '../styles';
 const Tech = () => {
   return (
     <>
+      <p className={styles.sectionSubText}>Frequently used tech, but not only that</p>
       <h2 className={styles.sectionHeadText}>Tech</h2>
       <br />
       <br />
