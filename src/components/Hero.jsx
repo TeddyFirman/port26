@@ -143,7 +143,7 @@ const Hero = () => {
 
       {/* Tampilkan MobileComputersCanvas jika mobile */}
       {/* {isMobile && <MobileComputersCanvas />} */}
-      <Computers isMobile={isMobile} />
+      <ComputersCanvas isMobile={isMobile} />
       
 
       {/* <EarthCanvas /> */}
