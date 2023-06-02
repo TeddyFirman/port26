@@ -80,22 +80,45 @@ import { MobileComputersCanvas } from './canvas';
 import { EarthCanvas } from './canvas';
 
 const Hero = () => {
+  // const [isMobile, setIsMobile] = useState(false);
+
+  // useEffect(() => {
+  //   // Mengatur state isMobile berdasarkan ukuran layar saat komponen dimuat
+  //   const handleResize = () => {
+  //     setIsMobile(window.innerWidth <= 767);
+  //   };
+
+  //   handleResize();
+
+  //   // Event listener untuk mengubah state isMobile saat ukuran layar berubah
+  //   window.addEventListener('resize', handleResize);
+
+  //   // Membersihkan event listener saat komponen dibongkar
+  //   return () => {
+  //     window.removeEventListener('resize', handleResize);
+  //   };
+  // }, []);
+
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    // Mengatur state isMobile berdasarkan ukuran layar saat komponen dimuat
-    const handleResize = () => {
-      setIsMobile(window.innerWidth <= 767);
+    // Add a listener for changes to the screen size
+    const mediaQuery = window.matchMedia("(max-width: 1200px)");
+
+    // Set the initial value of the `isMobile` state variable
+    setIsMobile(mediaQuery.matches);
+
+    // Define a callback function to handle changes to the media query
+    const handleMediaQueryChange = (event) => {
+      setIsMobile(event.matches);
     };
 
-    handleResize();
+    // Add the callback function as a listener for changes to the media query
+    mediaQuery.addEventListener("change", handleMediaQueryChange);
 
-    // Event listener untuk mengubah state isMobile saat ukuran layar berubah
-    window.addEventListener('resize', handleResize);
-
-    // Membersihkan event listener saat komponen dibongkar
+    // Remove the listener when the component is unmounted
     return () => {
-      window.removeEventListener('resize', handleResize);
+      mediaQuery.removeEventListener("change", handleMediaQueryChange);
     };
   }, []);
 
@@ -116,10 +139,12 @@ const Hero = () => {
       </div>
 
       {/* Tampilkan ComputersCanvas jika tidak mobile */}
-      {!isMobile && <ComputersCanvas />}
+      {/* {!isMobile && <ComputersCanvas />} */}
 
       {/* Tampilkan MobileComputersCanvas jika mobile */}
-      {isMobile && <MobileComputersCanvas />}
+      {/* {isMobile && <MobileComputersCanvas />} */}
+      <Computers isMobile={isMobile} />
+      
 
       {/* <EarthCanvas /> */}
 
