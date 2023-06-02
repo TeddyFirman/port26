@@ -57,39 +57,7 @@ const ProjectCard = React.memo(({ index, name, description, tags, image, source_
   )
 })
 
-// const Works = () => {
-//   return (
-//     <>
-//       <motion.div variants={textVariant()}>
-//         <p className={styles.sectionSubText}>My portfolio</p>
-//         <h2 className={styles.sectionHeadText}>Projects</h2>
-//       </motion.div>
-
-//       <div className="w-full flex">
-//         <motion.p
-//           variants={fadeIn("", "", 0.1, 1)}
-//           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
-//         >
-//           Following projects showcases my skills and experience through real-world examples of my work. Each project is briefly described which is stored on my github. It reflects my ability to solve complex problems, work with different technologies and manage projects effectively.
-//         </motion.p>
-//       </div>
-
-//       <div className="mt-20 flex flex-wrap gap-7 sm:gap-12">
-//         {projects.map((project, index) => (
-//           <ProjectCard
-//             key={`project-${index}`}
-//             index={index}
-//             {...project}
-//           />
-//         ))}
-//       </div>
-//     </>
-//   )
-// }
-
 const Works = () => {
-  const projectsToShow = projects.slice(0, 6);
-
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -102,12 +70,12 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          Following projects showcase my skills and experience through real-world examples of my work. Each project is briefly described and stored on my GitHub. They reflect my ability to solve complex problems, work with different technologies, and effectively manage projects.
+          Following projects showcases my skills and experience through real-world examples of my work. Each project is briefly described which is stored on my github. It reflects my ability to solve complex problems, work with different technologies and manage projects effectively.
         </motion.p>
       </div>
 
-      <div className="mt-20 flex flex-wrap gap-7">
-        {projectsToShow.map((project, index) => (
+      <div className="mt-20 flex flex-wrap gap-7 sm:gap-12">
+        {projects.map((project, index) => (
           <ProjectCard
             key={`project-${index}`}
             index={index}
@@ -118,7 +86,6 @@ const Works = () => {
     </>
   )
 }
-
 
 export default SectionWrapper(Works, "");
 
