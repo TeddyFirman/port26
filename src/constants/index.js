@@ -237,48 +237,48 @@ import {
       image: univini,
       source_code_link: "https://github.com/",
     },
-    {
-      name: "First Web Portfolio",
-      description:
-        "My first web portfolio that I developed using the framework python flask, bootstrap and jquery.",
-      tags: [
-        {
-          name: "Flask",
-          color: "gray-text-gradient",
-        },
-        {
-          name: "Bootstrap",
-          color: "purple-text-gradient",
-        },
-        {
-          name: "JQuery",
-          color: "indigo-text-gradient",
-        },
-      ],
-      image: firstporto,
-      source_code_link: "https://teddyfirman404.pythonanywhere.com/",
-    },
-    {
-      name: "Face Mask Detection",
-      description:
-        "Project during of COVID-19 to maintaining social distancing. With Deep Learning, Developed with OpenCV using CNN to train data.",
-      tags: [
-        {
-          name: "Python",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "TensorFlow",
-          color: "orange-text-gradient",
-        },
-        {
-          name: "OpenCV",
-          color: "green-text-gradient",
-        },
-      ],
-      image: facemask,
-      source_code_link: "https://github.com/",
-    },
+    // {
+    //   name: "First Web Portfolio",
+    //   description:
+    //     "My first web portfolio that I developed using the framework python flask, bootstrap and jquery.",
+    //   tags: [
+    //     {
+    //       name: "Flask",
+    //       color: "gray-text-gradient",
+    //     },
+    //     {
+    //       name: "Bootstrap",
+    //       color: "purple-text-gradient",
+    //     },
+    //     {
+    //       name: "JQuery",
+    //       color: "indigo-text-gradient",
+    //     },
+    //   ],
+    //   image: firstporto,
+    //   source_code_link: "https://teddyfirman404.pythonanywhere.com/",
+    // },
+    // {
+    //   name: "Face Mask Detection",
+    //   description:
+    //     "Project during of COVID-19 to maintaining social distancing. With Deep Learning, Developed with OpenCV using CNN to train data.",
+    //   tags: [
+    //     {
+    //       name: "Python",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "TensorFlow",
+    //       color: "orange-text-gradient",
+    //     },
+    //     {
+    //       name: "OpenCV",
+    //       color: "green-text-gradient",
+    //     },
+    //   ],
+    //   image: facemask,
+    //   source_code_link: "https://github.com/",
+    // },
     {
       name: "Auto Tag Image",
       description:
