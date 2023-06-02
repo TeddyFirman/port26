@@ -102,10 +102,10 @@ import {
       name: "Node JS",
       icon: nodejs,
     },
-    {
-      name: "git",
-      icon: git,
-    },
+    // {
+    //   name: "git",
+    //   icon: git,
+    // },
     // {
     //   name: "Python",
     //   icon: python
