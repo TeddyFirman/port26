@@ -139,11 +139,11 @@ const Hero = () => {
       </div>
 
       {/* Tampilkan ComputersCanvas jika tidak mobile */}
-      {/* {!isMobile && <ComputersCanvas />} */}
+      {!isMobile && <ComputersCanvas />}
 
       {/* Tampilkan MobileComputersCanvas jika mobile */}
-      {/* {isMobile && <MobileComputersCanvas />} */}
-      <ComputersCanvas isMobile={isMobile} />
+      {isMobile && <ComputersCanvas isMobile={isMobile} />}
+      {/* <ComputersCanvas isMobile={isMobile} /> */}
       
 
       {/* <EarthCanvas /> */}
