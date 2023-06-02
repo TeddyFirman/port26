@@ -23,8 +23,8 @@ const Hero = () => {
       
       
 
-      <ComputersCanvas />
-      {/* <EarthCanvas /> */}
+      {/* <ComputersCanvas /> */}
+      <EarthCanvas />
 
     
       <div className="absolute xs:bottom-1 bottom-32 w-full flex justify-center items-center xs:top-200">
