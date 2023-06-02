@@ -185,8 +185,7 @@
 
 
 // VERSI NYAR!!!!!!!!!!!!!!!!!!!!!!
-
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Tilt } from "react-tilt";
 import { motion } from 'framer-motion';
 
@@ -246,6 +245,21 @@ const ProjectCard = React.memo(({ index, name, description, tags, image, source_
 })
 
 const Works = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const checkIsMobile = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    checkIsMobile();
+    window.addEventListener('resize', checkIsMobile);
+
+    return () => {
+      window.removeEventListener('resize', checkIsMobile);
+    };
+  }, []);
+
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -262,7 +276,7 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className="mt-10 sm:mt-20 flex flex-wrap gap-7">
+      <div className={`mt-10 ${isMobile ? 'sm:mt-20' : ''} flex flex-wrap gap-7`}>
         {projects.map((project, index) => (
           <ProjectCard
             key={`project-${index}`}
@@ -276,4 +290,3 @@ const Works = () => {
 }
 
 export default SectionWrapper(Works, "");
-
