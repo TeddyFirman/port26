@@ -54,12 +54,12 @@ import firstporto from "./firstporto.png";
 import facemask from "./faceMask.png";
 import freshcam from "./freshcam.png";
 import apps from "./apps.png";
-import perpus from "./perpus.png";
-import exibition from "./exibition.png";
-import quizApps from "./quizApps.png";
-import reservation from "./reservation.png";
-import rental from "./rental.png";
-import simpleEcom from "./simpleEcom.png";
+import perpus from "./perpus.webp";
+import exibition from "./exibition.webp";
+import quizApps from "./quizApps.webp";
+import reservation from "./reservation.webp";
+import rental from "./rental.webp";
+import simpleEcom from "./simpleEcom.webp";
 import autotag from "./autotag.png";
 
 export {

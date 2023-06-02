@@ -76,7 +76,7 @@ import { useEffect, useState } from 'react';
 
 import { styles } from '../styles';
 import { ComputersCanvas } from './canvas';
-import { MobileComputersCanvas } from './canvas';
+// import { MobileComputersCanvas } from './canvas';
 import { EarthCanvas } from './canvas';
 
 const Hero = () => {
