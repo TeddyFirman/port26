@@ -18,10 +18,10 @@ const Hero = () => {
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I am a Backend Developer
           </p>
-          <motion.div>
 
-            <ComputersCanvas />
-          </motion.div>
+
+
+          <ComputersCanvas />
         </div>
       </div>
 
