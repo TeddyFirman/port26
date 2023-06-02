@@ -19,7 +19,9 @@ const Hero = () => {
             I am a Backend Developer
           </p>
         </div>
-        <ComputersCanvas />
+        <ComputersCanvas
+          scale={0.68}
+        />
       </div>
 
 
