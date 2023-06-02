@@ -212,140 +212,140 @@ import {
   ];
   
   const projects = [
-    // {
-    //   name: "Univ Ini",
-    //   description:
-    //     "This is a web-based student management system project, which has a system like facebook, I develop with html css js and php (native).",
-    //   tags: [
-    //     {
-    //       name: "HTML",
-    //       color: "red-text-gradient",
-    //     },
-    //     {
-    //       name: "CSS",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "JavaScript",
-    //       color: "yellow-text-gradient",
-    //     },
-    //     {
-    //       name: "PHP",
-    //       color: "indigo-text-gradient",
-    //     },
-    //   ],
-    //   image: univini,
-    //   source_code_link: "https://github.com/",
-    // },
-    // {
-    //   name: "First Web Portfolio",
-    //   description:
-    //     "My first web portfolio that I developed using the framework python flask, bootstrap and jquery.",
-    //   tags: [
-    //     {
-    //       name: "Flask",
-    //       color: "gray-text-gradient",
-    //     },
-    //     {
-    //       name: "Bootstrap",
-    //       color: "purple-text-gradient",
-    //     },
-    //     {
-    //       name: "JQuery",
-    //       color: "indigo-text-gradient",
-    //     },
-    //   ],
-    //   image: firstporto,
-    //   source_code_link: "https://teddyfirman404.pythonanywhere.com/",
-    // },
-    // {
-    //   name: "Face Mask Detection",
-    //   description:
-    //     "Project during of COVID-19 to maintaining social distancing. With Deep Learning, Developed with OpenCV using CNN to train data.",
-    //   tags: [
-    //     {
-    //       name: "Python",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "TensorFlow",
-    //       color: "orange-text-gradient",
-    //     },
-    //     {
-    //       name: "OpenCV",
-    //       color: "green-text-gradient",
-    //     },
-    //   ],
-    //   image: facemask,
-    //   source_code_link: "https://github.com/",
-    // },
-    // {
-    //   name: "Auto Tag Image",
-    //   description:
-    //     "Project to help auto tag news in the form of images/videos that have been made with machine learning.",
-    //   tags: [
-    //     {
-    //       name: "Python",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "TensorFlow",
-    //       color: "orange-text-gradient",
-    //     },
-    //     {
-    //       name: "FastAPI",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "Postgres",
-    //       color: "indigo-text-gradient",
-    //     },
-    //   ],
-    //   image: autotag,
-    //   source_code_link: "https://github.com/",
-    // },
-    // {
-    //   name: "Freshcam",
-    //   description:
-    //     "The final project of learning Bangkit Academy led by Google, Tokopedia, Gojek, & Traveloka, an application to detect whether the scanned fruit is fresh or rotten, and I as a machine learning engineer create machine learning models with accuracy 94%.",
-    //   tags: [
-    //     {
-    //       name: "Python",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "TensorFlow",
-    //       color: "orange-text-gradient",
-    //     },
-    //     {
-    //       name: "Keras",
-    //       color: "red-text-gradient",
-    //     },
-    //   ],
-    //   image: freshcam,
-    //   source_code_link: "https://github.com/",
-    // },
-    // {
-    //   name: "First Apps",
-    //   description:
-    //     "The first application that I developed using Android Studio with the Java, which focuses on increasing knowledge about Entity Relationship Diagram.",
-    //   tags: [
-    //     {
-    //       name: "Java",
-    //       color: "orange-text-gradient",
-    //     },
-    //     {
-    //       name: "XML",
-    //       color: "gray-text-gradient",
-    //     },
-    //     {
-    //       name: "AndroidStudio",
-    //       color: "green-text-gradient",
-    //     },
-    //   ],
-    //   image: apps,
-    //   source_code_link: "https://github.com/",
-    // },
+    {
+      name: "Univ Ini",
+      description:
+        "This is a web-based student management system project, which has a system like facebook, I develop with html css js and php (native).",
+      tags: [
+        {
+          name: "HTML",
+          color: "red-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "PHP",
+          color: "indigo-text-gradient",
+        },
+      ],
+      image: univini,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "First Web Portfolio",
+      description:
+        "My first web portfolio that I developed using the framework python flask, bootstrap and jquery.",
+      tags: [
+        {
+          name: "Flask",
+          color: "gray-text-gradient",
+        },
+        {
+          name: "Bootstrap",
+          color: "purple-text-gradient",
+        },
+        {
+          name: "JQuery",
+          color: "indigo-text-gradient",
+        },
+      ],
+      image: firstporto,
+      source_code_link: "https://teddyfirman404.pythonanywhere.com/",
+    },
+    {
+      name: "Face Mask Detection",
+      description:
+        "Project during of COVID-19 to maintaining social distancing. With Deep Learning, Developed with OpenCV using CNN to train data.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "TensorFlow",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "OpenCV",
+          color: "green-text-gradient",
+        },
+      ],
+      image: facemask,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Auto Tag Image",
+      description:
+        "Project to help auto tag news in the form of images/videos that have been made with machine learning.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "TensorFlow",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "FastAPI",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Postgres",
+          color: "indigo-text-gradient",
+        },
+      ],
+      image: autotag,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Freshcam",
+      description:
+        "The final project of learning Bangkit Academy led by Google, Tokopedia, Gojek, & Traveloka, an application to detect whether the scanned fruit is fresh or rotten, and I as a machine learning engineer create machine learning models with accuracy 94%.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "TensorFlow",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "Keras",
+          color: "red-text-gradient",
+        },
+      ],
+      image: freshcam,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "First Apps",
+      description:
+        "The first application that I developed using Android Studio with the Java, which focuses on increasing knowledge about Entity Relationship Diagram.",
+      tags: [
+        {
+          name: "Java",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "XML",
+          color: "gray-text-gradient",
+        },
+        {
+          name: "AndroidStudio",
+          color: "green-text-gradient",
+        },
+      ],
+      image: apps,
+      source_code_link: "https://github.com/",
+    },
     {
       name: "Web Perpustakaan",
       description:
