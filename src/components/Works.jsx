@@ -1,5 +1,4 @@
-
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Tilt } from "react-tilt";
 import { motion } from 'framer-motion';
 
@@ -21,7 +20,7 @@ const ProjectCard = React.memo(({ index, name, description, tags, image, source_
         className="bg-tertiary p-5 rounded-2xl sm:w-[359px]"
       >
         <div className="relative w-full h-1/3 sm:h-[230px]">
-          <img
+          <img 
             src={image}
             alt={name}
             className="w-full h-full object-cover rounded-2xl"
@@ -32,7 +31,7 @@ const ProjectCard = React.memo(({ index, name, description, tags, image, source_
               onClick={() => window.open(source_code_link, "_blank")}
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
-              <img
+              <img 
                 src={github}
                 alt="github"
                 className="w-1/2 h-1/2 object-contain"
@@ -59,29 +58,6 @@ const ProjectCard = React.memo(({ index, name, description, tags, image, source_
 })
 
 const Works = () => {
-  const [numColumns, setNumColumns] = useState(3); // Atur jumlah kolom default
-
-  useEffect(() => {
-    // Fungsi untuk mengubah jumlah kolom berdasarkan lebar layar
-    const handleResize = () => {
-      if (window.innerWidth < 640) {
-        setNumColumns(2); // Ubah jumlah kolom menjadi 2 pada perangkat seluler
-      } else {
-        setNumColumns(3); // Kembalikan jumlah kolom menjadi 3 pada perangkat yang lebih besar
-      }
-    };
-
-    window.addEventListener('resize', handleResize); // Tambahkan event listener untuk deteksi perubahan lebar layar
-
-    // Panggil fungsi handleResize saat komponen mount
-    handleResize();
-
-    // Clean up event listener saat komponen unmount
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
-
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -98,7 +74,7 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className={`mt-20 flex flex-wrap gap-7 sm:gap-12 md:gap-12 lg:gap-12 xl:gap-12 grid-cols-${numColumns}`}>
+      <div className="mt-20 flex flex-wrap gap-7 sm:gap-12">
         {projects.map((project, index) => (
           <ProjectCard
             key={`project-${index}`}
