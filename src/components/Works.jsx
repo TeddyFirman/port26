@@ -80,6 +80,7 @@ const Works = () => {
             key={`project-${index}`}
             index={index}
             {...project}
+            className="mb-7"
           />
         ))}
       </div>
