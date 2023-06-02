@@ -4,7 +4,27 @@ import { styles } from '../styles';
 import { ComputersCanvas } from './canvas';
 import { EarthCanvas } from './canvas';
 
+import { useEffect, useState } from 'react';
+
 const Hero = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    // Mengatur state isMobile berdasarkan ukuran layar saat komponen dimuat
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 767);
+    };
+
+    handleResize();
+
+    // Event listener untuk mengubah state isMobile saat ukuran layar berubah
+    window.addEventListener('resize', handleResize);
+
+    // Membersihkan event listener saat komponen dibongkar
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
   return (
     <section className="relative w-full h-screen mx-auto xs:bottom-12">
       <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
