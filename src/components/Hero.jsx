@@ -19,13 +19,10 @@ const Hero = () => {
             I am a Backend Developer
           </p>
         </div>
-        <ComputersCanvas
-          scale={0.68}
-          position={[0, -3.05, -1.2]}
-        />
       </div>
 
-
+      <ComputersCanvas
+      />
 
       {/* <EarthCanvas /> */}
 

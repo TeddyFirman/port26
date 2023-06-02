@@ -19,7 +19,7 @@ const ProjectCard = React.memo(({ index, name, description, tags, image, source_
         }}
         className="bg-tertiary p-5 rounded-2xl sm:w-[359px]"
       >
-        <div className="relative w-full h-[210px]">
+        <div className="relative w-full h-[230px]">
           <img 
             src={image}
             alt={name}
