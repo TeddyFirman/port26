@@ -58,7 +58,12 @@ const ProjectCard = React.memo(({ index, name, description, tags, image, source_
 })
 
 const Works = () => {
-  const projectsToShow = projects.slice(0, 6);
+  const isMobile = window.innerWidth <= 768; // Cek apakah perangkat adalah perangkat seluler
+
+  let projectsToShow = projects; // Menampilkan semua proyek secara default
+  if (isMobile) {
+    projectsToShow = projects.slice(0, 6); // Jika perangkat seluler, batasi hanya menampilkan 6 proyek
+  }
 
   return (
     <>
@@ -82,7 +87,7 @@ const Works = () => {
             key={`project-${index}`}
             index={index}
             {...project}
-            className="mb-7"
+          // className="mb-7"
           />
         ))}
       </div>
