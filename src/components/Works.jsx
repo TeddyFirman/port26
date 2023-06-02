@@ -17,10 +17,11 @@ const ProjectCard = React.memo(({ index, name, description, tags, image, source_
           scale: 1,
           speed: 450
         }}
-        className="bg-tertiary p-5 rounded-2xl w-full sm:w-[359px]"
+        // className="bg-tertiary p-5 rounded-2xl w-full sm:w-[359px]"
+        className="bg-tertiary p-5 rounded-2xl w-full sm:w-[359px] md:w-[320px] lg:w-[400px]"
       >
         <div className="relative w-full h-1/3 sm:h-[230px]">
-          <img
+          <img 
             src={image}
             alt={name}
             className="w-full h-full object-cover rounded-2xl"
@@ -31,7 +32,7 @@ const ProjectCard = React.memo(({ index, name, description, tags, image, source_
               onClick={() => window.open(source_code_link, "_blank")}
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
-              <img
+              <img 
                 src={github}
                 alt="github"
                 className="w-1/2 h-1/2 object-contain"
@@ -58,13 +59,6 @@ const ProjectCard = React.memo(({ index, name, description, tags, image, source_
 })
 
 const Works = () => {
-  const isMobile = window.innerWidth <= 768; // Cek apakah perangkat adalah perangkat seluler
-
-  let projectsToShow = projects; // Menampilkan semua proyek secara default
-  if (isMobile) {
-    projectsToShow = projects.slice(0, 6); // Jika perangkat seluler, batasi hanya menampilkan 6 proyek
-  }
-
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -82,12 +76,12 @@ const Works = () => {
       </div>
 
       <div className="mt-20 flex flex-wrap gap-7">
-        {projectsToShow.map((project, index) => (
+        {projects.map((project, index) => (
           <ProjectCard
             key={`project-${index}`}
             index={index}
             {...project}
-          // className="mb-7"
+            // className="mb-7"
           />
         ))}
       </div>
