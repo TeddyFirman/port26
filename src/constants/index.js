@@ -425,48 +425,48 @@ import {
       image: quizApps,
       source_code_link: "https://github.com/",
     },
-    // {
-    //   name: "Web Reservation Restaurant/Cafe",
-    //   description:
-    //     "Reservation website for places and menus where guests can see menus and places that are still available, while the admin can CRUD menus, places and receive the reservation.",
-    //   tags: [
-    //     {
-    //       name: "Laravel",
-    //       color: "pink-text-gradient",
-    //     },
-    //     {
-    //       name: "Tailwind",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "MySQL",
-    //       color: "orange-text",
-    //     },
-    //   ],
-    //   image: reservation,
-    //   source_code_link: "https://github.com/",
-    // },
-    // {
-    //   name: "Web Rental Mobil",
-    //   description:
-    //     "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    //   tags: [
-    //     {
-    //       name: "Laravel",
-    //       color: "pink-text-gradient",
-    //     },
-    //     {
-    //       name: "Tailwind",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "MySQL",
-    //       color: "orange-text",
-    //     },
-    //   ],
-    //   image: rental,
-    //   source_code_link: "https://github.com/",
-    // },
+    {
+      name: "Web Reservation Restaurant/Cafe",
+      description:
+        "Reservation website for places and menus where guests can see menus and places that are still available, while the admin can CRUD menus, places and receive the reservation.",
+      tags: [
+        {
+          name: "Laravel",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Tailwind",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "MySQL",
+          color: "orange-text",
+        },
+      ],
+      image: reservation,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Web Rental Mobil",
+      description:
+        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      tags: [
+        {
+          name: "Laravel",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Tailwind",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "MySQL",
+          color: "orange-text",
+        },
+      ],
+      image: rental,
+      source_code_link: "https://github.com/",
+    },
     // {
     //   name: "Simple E-Commerce",
     //   description:
