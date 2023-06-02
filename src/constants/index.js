@@ -258,73 +258,73 @@ import {
       image: firstporto,
       source_code_link: "https://teddyfirman404.pythonanywhere.com/",
     },
-    {
-      name: "Face Mask Detection",
-      description:
-        "Project during of COVID-19 to maintaining social distancing. With Deep Learning, Developed with OpenCV using CNN to train data.",
-      tags: [
-        {
-          name: "Python",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "TensorFlow",
-          color: "orange-text-gradient",
-        },
-        {
-          name: "OpenCV",
-          color: "green-text-gradient",
-        },
-      ],
-      image: facemask,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Auto Tag Image",
-      description:
-        "Project to help auto tag news in the form of images/videos that have been made with machine learning.",
-      tags: [
-        {
-          name: "Python",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "TensorFlow",
-          color: "orange-text-gradient",
-        },
-        {
-          name: "FastAPI",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Postgres",
-          color: "indigo-text-gradient",
-        },
-      ],
-      image: autotag,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Freshcam",
-      description:
-        "The final project of learning Bangkit Academy led by Google, Tokopedia, Gojek, & Traveloka, an application to detect whether the scanned fruit is fresh or rotten, and I as a machine learning engineer create machine learning models with accuracy 94%.",
-      tags: [
-        {
-          name: "Python",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "TensorFlow",
-          color: "orange-text-gradient",
-        },
-        {
-          name: "Keras",
-          color: "red-text-gradient",
-        },
-      ],
-      image: freshcam,
-      source_code_link: "https://github.com/",
-    },
+    // {
+    //   name: "Face Mask Detection",
+    //   description:
+    //     "Project during of COVID-19 to maintaining social distancing. With Deep Learning, Developed with OpenCV using CNN to train data.",
+    //   tags: [
+    //     {
+    //       name: "Python",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "TensorFlow",
+    //       color: "orange-text-gradient",
+    //     },
+    //     {
+    //       name: "OpenCV",
+    //       color: "green-text-gradient",
+    //     },
+    //   ],
+    //   image: facemask,
+    //   source_code_link: "https://github.com/",
+    // },
+    // {
+    //   name: "Auto Tag Image",
+    //   description:
+    //     "Project to help auto tag news in the form of images/videos that have been made with machine learning.",
+    //   tags: [
+    //     {
+    //       name: "Python",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "TensorFlow",
+    //       color: "orange-text-gradient",
+    //     },
+    //     {
+    //       name: "FastAPI",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "Postgres",
+    //       color: "indigo-text-gradient",
+    //     },
+    //   ],
+    //   image: autotag,
+    //   source_code_link: "https://github.com/",
+    // },
+    // {
+    //   name: "Freshcam",
+    //   description:
+    //     "The final project of learning Bangkit Academy led by Google, Tokopedia, Gojek, & Traveloka, an application to detect whether the scanned fruit is fresh or rotten, and I as a machine learning engineer create machine learning models with accuracy 94%.",
+    //   tags: [
+    //     {
+    //       name: "Python",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "TensorFlow",
+    //       color: "orange-text-gradient",
+    //     },
+    //     {
+    //       name: "Keras",
+    //       color: "red-text-gradient",
+    //     },
+    //   ],
+    //   image: freshcam,
+    //   source_code_link: "https://github.com/",
+    // },
     {
       name: "First Apps",
       description:
