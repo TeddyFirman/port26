@@ -21,11 +21,12 @@ const Hero = () => {
         </div>
       </div>
 
+      <div>
+        <motion.div>
 
-      <motion.div>
-
-        <ComputersCanvas />
-      </motion.div>
+          <ComputersCanvas />
+        </motion.div>
+      </div>
       {/* <EarthCanvas /> */}
 
 
