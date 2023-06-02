@@ -21,8 +21,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <ComputersCanvas
-      />
+      {isMobile && <ComputersCanvas />}
 
       {/* <EarthCanvas /> */}
 
