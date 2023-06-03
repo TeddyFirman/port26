@@ -372,7 +372,7 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Web Exhibition Design",
+      name: "Web Exhibition",
       description:
         "Web exhibition to display design works, that have Admin, Student Authentication. CRUD Categories and Desaigns for Students, while the Admin publishes works.",
       tags: [
